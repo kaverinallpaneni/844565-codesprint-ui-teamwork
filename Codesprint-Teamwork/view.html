@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="viewAppointments.js"></script>
+</head>
+<body onload="get()" style="background-image:url('allpage.jpg');background-repeat:no-repeat">
+    <header>
+<!--style="background-image:url('Seller.jpeg')" use it in the down div tag for background-->
+             <div>
+                <img src="logo1.png" class="ml-3 mt-2 rounded-circle" alt="LOGO" style="width: 100px; height: 80px;">
+               
+            <h3 style="text-align:center">Book your Trainer and be fit</h3>
+        
+        </div>
+
+      
+        <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+
+            <div class="col" id="navbarText">
+            <ul class="nav row nav-pills ">
+
+                <li class="col-sm-3 nav-item text-center">
+                    <a  class="nav-link btn-outline-primary" href="index.html">Home </a>
+                </li>
+                <li class="col-sm-3 nav-item text-center">
+                    <a class="nav-link btn-outline-primary" href="appointment.html">Place Appointment</a>
+                </li>
+                <li class="col-sm-3 nav-item text-center">
+                    <a class="nav-link btn-outline-primary" href="view.html">View Appointment</a>
+                </li>
+                <li class="col-sm-3 nav-item text-center">
+                    <a class="nav-link btn-outline-primary" href="Contact.html">Contact</a>
+                </li>
+
+            </ul>
+          
+            </div>
+
+        </nav>
+    </header>
+    
+    <section >
+        <div class="row">
+            <aside class="col-3">
+
+                <ul class="nav flex-column">
+                    <li class="nav-item my-2 text-center">
+                        <a href="index.html" class="nav-link btn-primary">Home</a>
+                    </li>
+                    <li class="nav-item my-2 text-center">
+                        <a href="appointment.html" class="nav-link btn-primary">Place Appointment</a>
+                    </li>
+                    <li class="nav-item my-2 text-center">
+                        <a href="view.html" class="nav-link btn-primary">View Appointment</a>
+                    </li>
+                    <li class="nav-item my-2 text-center">
+                        <a href="Contact.html" class="nav-link btn-primary">Contact Us</a>
+                    </li>
+                </ul>
+
+            </aside>
+            <div class="col my-4 text-center">
+
+                <table class="table table-striped">
+                    <tr>
+                        <th>Sno</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Package</th>
+                        <th>Trainer preference</th>
+                        <th>Phone</th>
+                    </tr>
+                    <tbody id="mybody">
+            
+                    </tbody>
+                </table>
+		<h2 id="nodata"></h2>
+        </div>
+
+    </section>
+</body>
+</html>
